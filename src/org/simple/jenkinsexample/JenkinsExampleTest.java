@@ -28,7 +28,8 @@ public class JenkinsExampleTest {
 
 	@Test
 	public final void testJenkinsExample() {
-		assertTrue(true);
+		JenkinsExample jenkinsExample = new JenkinsExample();
+		assertNotNull(jenkinsExample);
 	}
 
 	@Test
